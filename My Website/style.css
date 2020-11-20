@@ -26,13 +26,20 @@ ul, ol{
 li { 
     text-align: left;
     color: rgb(238, 255, 6); 
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
 }
 
 p{
     text-align: left;
     color: rgb(238, 255, 6); 
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
+    padding-left: 45px;
+}
+
+p.footer{
+    text-align: center;
+    color: rgb(238, 255, 6); 
+    font-family: sans-serif;
     padding-left: 45px;
 }
 
@@ -40,41 +47,129 @@ a{
     color: darkturquoise;
     text-align: left;
     text-decoration: none;
+    font-family: sans-serif;
 }
 
 a:hover{
     color: rgb(238, 255, 6);
+    text-decoration: underline;
 }
 
 a:active{
-    color: darkturquoise;
+    color: rgb(207, 105, 221);;
 }
 
-h1.schedule{
+h2.schedule{
     text-align: center;
     color:rgb(207, 105, 221);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace
 }
 
 td{
     color: rgb(238, 255, 6);
     text-align: center;
     padding: 30px;
+    font-family: sans-serif;
+    width: auto;
+}
+
+.hours{
+    background-color: firebrick;
+    font-family: sans-serif;
+    color: dodgerblue;
+}
+
+.gaming{
+    background-color: darkgreen;
+    font-family: sans-serif;
+    color: lightcoral;
+}
+
+.naps{
+    background-color: navy;
+    font-family: sans-serif;
+    color: oldlace;
+}
+
+.hw{
+    background-color: palegoldenrod;
+    font-family: sans-serif;
+    color: black;
+}
+
+.dinner{
+    background-color: orangered;
+    font-family: sans-serif;
+    color: gold;
+}
+
+.disney{
+    background-color: lightpink;
+    font-family: sans-serif;
+    color: crimson;
+}
+
+.it{
+    background-color: darkgoldenrod;
+    font-family: sans-serif;
+    color: darkgreen;
+
+}
+
+.cs{
+    background-color: darkmagenta;
+    color: lightcoral;
+}
+
+.tea{
+    background-color: black;
+    font-family: sans-serif;
+    color: hotpink;
 }
 
 th{
     color: rgb(238, 255, 6);
     text-align: center;
     padding: 30px;
+    font-family: sans-serif;
 }
 
 strong.schedule {
-    color: darkturquoise;
+    color: rgb(207, 105, 221);
 }
 
 table{
     color:rgb(207, 105, 221);
     margin-left: auto;
     margin-right: auto;
-    table-layout: auto;
+    table-layout: fixed;
+    border-radius: 1;
 }
+
+#navbar{
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: darkturquoise;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  .content{
+      padding:16px;
+  }
+
+  .sticky{
+      position: fixed;
+      top:0;
+      width: 100%;
+  }
+
+  .sticky + .content{
+      padding-top: 60px;
+  }
