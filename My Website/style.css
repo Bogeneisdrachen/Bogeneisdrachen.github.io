@@ -160,16 +160,11 @@ table{
     text-decoration: none;
   }
 
-  .content{
-      padding:16px;
-  }
+#navbar a:hover{
+    color: rgb(238, 255, 6);
+    text-decoration: underline;
+}
 
-  .sticky{
-      position: fixed;
-      top:0;
-      width: 100%;
-  }
-
-  .sticky + .content{
-      padding-top: 60px;
-  }
+#navbar a:active{
+    color: rgb(207, 105, 221);;
+}
